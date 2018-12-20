@@ -15,17 +15,17 @@ module.exports.run = async (bot, message, args) => {
   let coinEmbed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#00FF00")
-  .addField("!addrole <user> <role>");,
-  .addField("!ban <user>");,
-  .addField("!botinfo ");,
-  .addField("!clear <number of messages>");,
-  .addField("!coins ");,
-  .addField("!level ");,
-  .addField("!pay <user> <cash number>");,
-  .addField("!prefix <custom prefix>");,
-  .addField("!removerole <user> <role>");,
-  .addField("!report <message>");,
-  .addField("!say <message>");,
+  .addField("!addrole <user> <role>")
+  .addField("!ban <user>")
+  .addField("!botinfo ")
+  .addField("!clear <number of messages>")
+  .addField("!coins ")
+  .addField("!level ")
+  .addField("!pay <user> <cash number>")
+  .addField("!prefix <custom prefix>")
+  .addField("!removerole <user> <role>")
+  .addField("!report <message>")
+  .addField("!say <message>")
   .addField("!serverinfo");
 
 
